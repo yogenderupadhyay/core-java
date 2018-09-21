@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+F:\eclipse oxygen workspaces\practice\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+4057928711.index
+2914068231.index
+3251880859.index
+3197301641.index
+1047632368.index
+2983927671.index

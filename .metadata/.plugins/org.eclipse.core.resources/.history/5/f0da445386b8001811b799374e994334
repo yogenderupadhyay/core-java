@@ -1,0 +1,18 @@
+package com.exercise.chapter03;
+
+import java.util.Scanner;
+
+public class Exercise_4 {
+	public void primeNumbers() {
+		System.out.println("\n\t\t\t\t\t\t Exercise 3 \n\n");
+		System.out.print("Enter number :");
+		Scanner sc=new Scanner(System.in);
+		int num =sc.nextInt();
+		for(int i=2;i<=num;i++) {
+			for(int j=2;j<=i;j++) {
+				if(i%j==0)
+					break;
+			}
+		}
+	}
+}

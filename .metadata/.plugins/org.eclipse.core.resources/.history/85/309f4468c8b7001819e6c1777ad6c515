@@ -1,0 +1,13 @@
+package com.exercise.chapter02;
+
+public class Run {
+
+	public static void main(String[] args) {
+		System.out.println("Chapter 02 Working With Operators");
+		System.out.println("Exercise 1 :");
+		System.out.println("\t\tProgram to calculate total distance travelled by vehicle.Using following formula"
+							+ "\n\t\tDistance = ut + (at^2)/2");
+		System.out.println("Select Your Choice :");
+	}
+
+}

@@ -1,0 +1,31 @@
+package com.exercise.chapter02;
+import java.util.Scanner;
+
+public class Run {
+
+	public static void main(String[] args) {
+		boolean flag=true;
+		int choice;
+		while(flag) {
+		System.out.println("Chapter 02 Working With Operators");
+		System.out.println("Exercise 1 :");
+		System.out.println("\t\tProgram to calculate total distance travelled by vehicle.Using following formula"
+							+ "\n\t\tDistance = ut + (at^2)/2");
+		System.out.println("Select Your Choice :");
+		Scanner sc=new Scanner(System.in);
+		choice = sc.nextInt();
+		switch(choice) {
+			case 1: Exercise_1 ex=new Exercise_1();
+					ex.calculateDistance();
+			default:System.out.println("Invalid Option");
+		}
+		System.out.println("Press Y to continue and press any key to exit");
+		String temp=sc.next();
+		if(temp.equalsIgnoreCase("y"))
+			flag=true;
+		else
+			flag=false;
+		}
+	}
+
+}

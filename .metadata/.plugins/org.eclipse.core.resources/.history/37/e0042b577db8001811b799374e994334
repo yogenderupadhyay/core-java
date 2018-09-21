@@ -1,0 +1,27 @@
+package com.exercise.chapter03;
+import java.util.Scanner;
+
+public class Run {
+	public static void main (String a[]) {
+	int choice;
+	boolean flag=true;
+	while(flag) {
+	System.out.println("*************************Chapter 03 - Working With Conditional And Loop Construct***************************");
+	System.out.println("Exercise_1 : Write a program to achieve the following task \n"
+			+ "In employee book application david wants to display the following menu when applications starts :"
+			+ "\n1. Enter Data \n2. Display Data \n3. Exit"
+			+ "Thereafter, he wants user to enter a choice, such as 1, 2, 3. Bassed on the input provided by user, he/n"
+			+ "wants respective methods, enterData(),displayData(),or exitMenu(), to be invoked according to the user's \n"
+			+ "input, 1, 2 ,or 3, respectively.");
+	System.out.println("Exercise_2 : Write a program to display a following numeric pattern : \n"
+			+ "12345\n1234\n123\n12\n1");
+	System.out.println("------------------------------------------------------------------------------------------------------------");
+	Scanner sc=new Scanner(System.in);
+	choice=sc.nextInt();
+	switch(choice){
+	case 1: System.out.print("This exercise is not completed yet ");
+	case 2: 
+	}
+	}
+	}
+}
